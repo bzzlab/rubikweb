@@ -494,7 +494,7 @@ Rubik.prototype._build = function() {
 			for (var x=0;x<Rubik.SIZE;x++) {
 				var cube = new Cube([x, y, z]);
 				this._cubes.push(cube);
-
+				//set image path as third argument
 				if (z == 0) { cube.setFace(Face.FRONT, "#ffffff", "img/10.jpg"); }
 				if (z == 2) { cube.setFace(Face.BACK, "blue", "img/11.jpg"); }
 
@@ -510,7 +510,6 @@ Rubik.prototype._build = function() {
 			}
 		}
 	}
-
 }
 
 
