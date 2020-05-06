@@ -1,4 +1,4 @@
-## Webbased rubic with backgroundimages
+## Webbased rubic with background images
 
 1. Images are in the directory *img*.
 2. The image-path must be set in the <code>js/rubik.js</code> in the method <code>Rubik.prototype._build</code>.
