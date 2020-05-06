@@ -29,3 +29,11 @@ Rubik.prototype._build = function() {
 }
 
 ```
+
+And here the corresponding animation as sample.
+
+![alt text](img/example.gif "Sample rubic")
+
+
+Regards
+Daniel G.
